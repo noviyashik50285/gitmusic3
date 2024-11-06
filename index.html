@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="particles.css">
+    <link rel="stylesheet" href="all.min.css" /> -->
+    <link rel="stylesheet" href="playmus.css" />
+    <link rel="stylesheet" href="viezdmnu.css" />    
+    <link rel="stylesheet" href="viezdmnur.css" />    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <title>Аудиоплейер 3</title>
+    <link rel="icon" type="Images/x-icon" href="atsicon.ico"/>
+  </head>
+  <body>
+    
+    <div class="menu">
+      <div class="list_menu">
+        <ul>
+          
+<li><span id=mus5><p>Крючок</p>    
+   <audio controls>
+     <source src="music/kruchok.mp3" type="audio/mpeg">Прослушаем музыку 1
+   </audio>
+</span></li>
+                  
+<li><span id=mus15><p>Жду кого-то</p>    
+    <audio controls>
+       <source src="music/kogoto.mp3" type="audio/mpeg">Прослушаем музыку 1
+    </audio>
+</span></li>
+
+<li><span id=mus18><p>SOS</p>    
+  <audio controls>
+    <source src="music/vrungsos.mp3" type="audio/mpeg">Прослушаем музыку 1
+  </audio>
+</span></li>
+
+<li><span id=mus17><p>Раки</p>    
+  <audio controls>
+    <source src="music/rakihochu.mp3" type="audio/mpeg">Прослушаем музыку 1
+  </audio>
+</span></li>
+
+<li><span id=mus6><p>Борода</p>    
+<audio controls>
+<source src="music/boroda.mp3" type="audio/mpeg">Прослушаем музыку 1
+</audio>
+</span></li>
+
+<li><span id=mus8><p>Спортлото</p>    
+<audio controls>
+<source src="music/sportloto.mp3" type="audio/mpeg">Прослушаем музыку 1
+</audio>
+</span></li>
+
+<li><span id=mus1><p>Жили мы борясь</p>    
+  <audio controls>
+    <source src="music/boryas.mp3" type="audio/mpeg">Прослушаем музыку 1
+  </audio>
+</span></li>
+
+<li><span id=mus9><p>Ленин такой молодой</p>    
+  <audio controls>
+    <source src="music/lenmol.mp3" type="audio/mpeg">Прослушаем музыку 1
+  </audio>
+</span></li>
+
+</ul>
+</div>
+</div>
+
+<div class="menur">
+  <div class="list_menur">
+    <ul>
+
+<li><span id=mus14><p>Чудо</p>    
+  <audio controls>
+    <source src="music/chudo.mp3" type="audio/mpeg">Прослушаем музыку 1
+  </audio>
+</span></li>
+
+<li><span id=mus11><p>Представь себе</p>    
+  <audio controls>
+    <source src="music/predstav.mp3" type="audio/mpeg">Прослушаем музыку 1
+  </audio>
+</span></li>
+
+<li><span id=mus12><p>Плот</p>    
+  <audio controls>
+    <source src="music/plot.mp3" type="audio/mpeg">Прослушаем музыку 1
+  </audio>
+</span></li>
+
+<li><span id=mus13><p>Гимнастика</p>
+  <audio controls>
+    <source src="music/gimnastika.mp3" type="audio/mpeg">Прослушаем музыку 1
+  </audio>
+</span></li>
+
+<li><span id=mus16><p>Попробуем вернуть</p>    
+  <audio controls>
+    <source src="music/vernut.mp3" type="audio/mpeg">Прослушаем музыку 1
+  </audio>
+</span></li>
+
+<li><span id=mus3><p>Прошлым летом</p>    
+  <audio controls>
+    <source src="music/proshletom.mp3" type="audio/mpeg">Прослушаем музыку 1
+  </audio>
+</span></li>
+
+<li><span id=mus4><p>Цветные сны</p>    
+  <audio controls>
+    <source src="music/tsvetsni.mp3" type="audio/mpeg">Прослушаем музыку 1
+  </audio>
+</span></li>
+
+<li><span id=mus2><p>Леди совершенство</p>    
+  <audio controls>
+    <source src="music/ledysover.mp3" type="audio/mpeg">Прослушаем музыку 1
+  </audio>
+</span></li>
+
+</ul>
+  </div>
+     </div>
+
+<div id="zaonpp">ЗАО НПП "АТС"</div>     
+
+    <div class="container">
+      <!--============Player Content -->
+      <h2 id="music_title">Capital Letters</h2>
+      <!--==============Player Progress & Timmer -->
+      <div class="player_progress" id="player_progress">
+        <div class="progress" id="progress">
+          <div class="music_duration">
+            <span id="current_time">0:00</span>
+            <span id="duration">0:00</span>
+          </div>
+        </div>
+      </div>
+      <!--==============Player Controllers -->
+      <div class="player_controls">
+        <i class="fa-solid fa-backward" title="Предыдущий" id="prev"></i>
+        <i class="fa-solid fa-play play-button" title="Запуск" id="play"></i>
+        <i class="fa-solid fa-forward" title="Следующий" id="next"></i>
+      </div>
+    </div>
+
+    <script defer src="playmus.js"></script>
+  <!-- <div id="particles-js"></div>
+	<script src="../particles.min.js"></script>
+  <script src="../app.js"></script>    
+  <script src="podskaz.js"></script> -->
+
+</body>
+</html>
+
