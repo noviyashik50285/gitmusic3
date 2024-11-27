@@ -7,12 +7,12 @@
   align-items: flex-start;  /* align-items: start !important; */
 } 
 /* #butn0{ color: red; } */
-.victor{ 
+/* .victor{ 
   display: block;
-  margin-top: 26rem;  /* opacity: 0.95; */
+  margin-top: 26rem; 
   align-items: center;
   position: absolute;
-}
+} */
 .victor1{ 
   display: block;
   margin-top: 4rem;   /* opacity: 0.95; */
@@ -27,7 +27,7 @@ button { background-color: transparent;
     outline: none;
 }
 button:hover{color: white;}
-body {  background-image: url(back/victoria.jpg);
+body { background-image: url(back/victoria.jpg);
   /* background: radial-gradient(rgb(55, 255, 0), blue); */
   min-height: 100vh;
   overflow: hidden;
@@ -49,16 +49,29 @@ body {  background-image: url(back/victoria.jpg);
 }
 .container {  
   display: block;
-  margin-top: 10rem; color: white;
-  opacity: 0.85;
+  margin-top: 7.2rem; color: white;
+  opacity: 0.8;
   align-items: center;
   position: absolute;
   /* background-color: #99c39c; */
-  width: 400px;
+  width: 500px;
   height: 160px;
   border: 3px solid gray;
   border-radius: 1rem;
   /* box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3); */
+}
+.containerop {  
+  display: block;
+  margin-top: 20rem; color: white;
+  font-size: 1.25rem;
+  opacity: 0.85; text-align: center;
+  align-items: center;
+  position: absolute;
+  /* background-color: #99c39c; */
+  width: 660px;
+  height: 430px;
+  border: 3px solid rgb(186, 198, 236);
+  border-radius: 1rem;
 }
 h2 {
   font-size: 1.2rem;
@@ -109,6 +122,6 @@ h2 {
 }
 
 #zaonpp{position: absolute; z-index: 3;
-padding-left: 9.5rem; padding-top: 5rem;
+padding-left: 12.2rem; padding-top: 5rem;
 }
 p{color: #fff;}
