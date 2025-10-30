@@ -9,16 +9,16 @@ const playvBtnEl = document.getElementById("play");
 const nextvBtnEl = document.getElementById("next");
 const songs = [
   {
+    path: "music/opustakah.mp3",
+    displayName: "О пустяках",
+  },
+  {
     path: "music/kruchok.mp3",
     displayName: "Крючок",
   },
   {
     path: "music/kogoto.mp3",
     displayName: "Жду кого-то",
-  },
-  {
-    path: "music/vrungsos.mp3",
-    displayName: "SOS",
   },
   {
     path: "music/rakihochu.mp3",
