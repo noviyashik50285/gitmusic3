@@ -1,4 +1,3 @@
-//document.getElementById("knopa").style.display="none";
 var a;
 function show_hide()
 {
@@ -63,4 +62,16 @@ else{
 }
 }
 
+var str;
+function show_hidestr()
+{
+if(str==1) {
+    document.getElementById("ticker").style.display="inline";
+    return str=0;
+}
+else{
+    document.getElementById("ticker").style.display="none";
+    return str=1;
+}
+}
 

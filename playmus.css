@@ -61,9 +61,8 @@ body { background-image: url(back/victoria_.jpg);
   margin-top: 7.2rem; color: white;
   opacity: 0.8;
   align-items: center;
-  position: absolute;
-  /* background-color: #99c39c; */
-  width: 500px;
+  position: absolute;  /* background-color: #99c39c; */
+  width: 660px;
   height: 160px;
   border: 3px solid gray;
   border-radius: 1rem;
@@ -97,7 +96,7 @@ h2 {
   cursor: pointer;
 }
 .progress {
-  background-color: #212121;
+  background-color: #0d2a73;
   border-radius: 5px;
   height: 100%;
   width: 0%;
@@ -129,8 +128,6 @@ h2 {
 .play-button {
   font-size: 44px;
 }
-
-#zaonpp{position: absolute; z-index: 3;
-padding-left: 12.4rem; padding-top: 5rem;
-}
+#doptxt{text-align: center;}
+/* #zaonpp{position: absolute; z-index: 3; padding-left: 12.4rem; padding-top: 5rem;} */
 p{color: #fff;}
