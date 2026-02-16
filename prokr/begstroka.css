@@ -1,5 +1,5 @@
-.ticker { background-color: rgb(226, 243, 243);
-  color: #000;
+.ticker { background-color: transparent;
+  color: white;
   box-sizing: border-box;
   position: absolute;
   overflow: hidden;
@@ -9,6 +9,7 @@
   border-radius: 12px;
   margin-top: -28px;
 }
+.ticker:hover{background-color: black}
 .ticker__wrapper {
   display: inline-flex;
 }
